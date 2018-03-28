@@ -4,7 +4,7 @@ Personal number support for decidim.
 
 ## Usage
 
-This module allows users to
+This module allows users to register with a personal number and to log in with it.
 
 ## Installation
 
