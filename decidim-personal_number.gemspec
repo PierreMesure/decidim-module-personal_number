@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors = ["Pierre Mesure"]
   s.email = ["pierre.mesure@gmail.com"]
   s.license = "AGPL-3.0"
-  s.homepage = "https://github.com/decidim/decidim-module-personal_number"
+  s.homepage = "https://github.com/PierreMesure/decidim-module-personal_number"
   s.required_ruby_version = ">= 2.3.1"
 
   s.name = "decidim-personal_number"
@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency "decidim-core", Decidim::PersonalNumber.version
 
-  s.add_development_dependency "decidim-dev", Decidim::Meetings.version
-  s.add_development_dependency "decidim-admin", Decidim::Meetings.version
+  s.add_development_dependency "decidim-dev", Decidim::PersonalNumber.version
+  s.add_development_dependency "decidim-admin", Decidim::PersonalNumber.version
 end
